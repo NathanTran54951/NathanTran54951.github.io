@@ -1,0 +1,55 @@
+li.hi:hover {
+    left: 0px;
+}
+
+li.hi:active {
+    background-color: green;
+}
+
+li.hi {
+    position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+table, td, tr {
+    border: 1px solid black; 
+}
+
+body {
+    background-image: url("fantasy-planet-in-the-galaxy-1440x1080-wallpaper.jpg");
+    background-size: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#abc {
+    width: 100%;
+}
+
+.content {
+    border: solid black 3px;
+    margin-top: 0px;
+    padding-top: 20px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 0px;
+}
