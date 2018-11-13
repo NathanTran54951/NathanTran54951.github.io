@@ -29,10 +29,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#abc {
-    width: 100%;
-}
-
 .content {
     border: solid black 3px;
     margin-top: 0px;
